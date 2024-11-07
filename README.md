@@ -38,3 +38,7 @@ curl -X POST http://localhost:4000/images \
      -F "image=@/path/to/your/image.jpg" \
      -F "label=imagelabel"
 ```
+
+# Caveat
+
+This image detection API is... very questionable. It does not recognize basketballs at all. It thinks fish are traffic lights. I'm not certain what's going on - it is a free model, so I assume it's just weak, but rest assured that I do not think fish are traffic lights. Thank you for coming to my TED talk.
